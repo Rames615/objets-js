@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: rgb(76, 76, 133);
+    min-width: 100vw;
+    min-height: 100vh;
+    color: aliceblue;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vw;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    font-size: 4rem;
+}
+
+p {
+    font-size: 3rem;
+}
+
+em {
+    color: rgb(220, 207, 235);
+}
+
+strong {
+    color: burlywood;
+}
+
+.card {
+    margin-top: 5rem;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 1rem;
+    transition: all ease-in-out 1s;
+    padding: 1rem;
+    border: 5px solid #db4919;
+    /* clip-path: polygon(0% 15%, 7% 8%, 15% 0%, 85% 0%, 92% 7%, 100% 15%, 100% 90%, 92% 96%, 85% 100%, 15% 100%, 7% 95%, 0 92%);   */
+}
+
+.card:hover{
+  box-shadow: 10px 10px 10px 1000px chartreuse;
+}
+
+/* .card:hover {
+    box-shadow: -10px 10px 10px 1000px rgb(0, 0, 0);
+} */
+
+.card h2 {
+    font-size: 2rem;
+}
+
+.card h3 {
+    font-size: 1.3rem;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
